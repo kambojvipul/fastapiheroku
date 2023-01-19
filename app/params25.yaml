@@ -1,0 +1,19 @@
+# This is a non-active comment on a separate line
+imageType:
+  Original: {}
+  LoG:
+    # Because of resampling to (3, 3, 3), the use of sigmas < 3 mm is not recommended.
+    sigma: [1.0, 3.0, 5.0]
+  Wavelet: {}
+  Logarithm: {}
+  Exponential: {}
+  Gradient: {}
+  Square: {}
+        
+setting:
+    binWidth: 25
+    normalize: true
+    normalizeScale: 100
+
+    
+    
